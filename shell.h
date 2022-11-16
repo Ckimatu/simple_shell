@@ -70,5 +70,8 @@ int set_alias_value(char *arg, alias *alias_ptr, char *new_value);
 int print_env(void);
 char *_itoa(int n);
 int _atoi(char *s);
+int status;
+char *shell_name;
+int line_num;
 
 #endif
