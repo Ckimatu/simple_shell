@@ -1,5 +1,9 @@
 #include "shell.h"
 
+int status;
+int line_num;
+char *shell_name;
+
 /**
  * input_san - sanitizes input from the command line
  * @old_buf: buffer to be sanitized
