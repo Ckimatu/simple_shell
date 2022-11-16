@@ -1,5 +1,7 @@
 #include "shell.h"
 
+int status;
+
 /**
  * free_aliases - frees all aliases
  * @alias_ptr: a ptr to the head of alias list
