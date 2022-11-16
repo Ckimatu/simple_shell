@@ -1,8 +1,5 @@
 #include "shell.h"
 
-int status;
-char *shell_name;
-
 /**
  * command_manager - manages the process a command goes through to get executed
  * @args: command and arguments
